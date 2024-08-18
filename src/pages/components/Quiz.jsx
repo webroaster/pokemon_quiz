@@ -70,7 +70,7 @@ const Quiz = ({ generation, onGoBack }) => {
   }
 
   return (
-    <div className='w-[100%] max-w-[700px] mx-auto pt-4'>
+    <div className='w-[90%] max-w-[700px] mx-auto pt-4'>
       <Button color='gray' onClick={onGoBack} className='w-[100%] mb-4' size='md'>
         世代選択に戻る
       </Button>

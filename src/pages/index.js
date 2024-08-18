@@ -19,7 +19,7 @@ export default function Home() {
         <div className='text-center'>
           <h1>ポケモンクイズ</h1>
           <p>世代を選択してください</p>
-          <div className='w-[100%] max-w-[500px] mx-auto pt-4 text-center'>
+          <div className='w-[90%] max-w-[500px] mx-auto pt-4 text-center'>
             <Button onClick={() => selectGeneration(1)} className='w-[100%] mb-2' size='md' color='cyan'>
               赤・緑
             </Button>
